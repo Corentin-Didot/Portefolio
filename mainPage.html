@@ -1,0 +1,514 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Corentin Didot — Video Game Programmer</title>
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,700;1,800&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+
+<div class="page-transition" aria-hidden="true"></div>
+
+<div class="bg-image" aria-hidden="true"></div>
+<div class="grid-bg" aria-hidden="true"></div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#home" class="logo"><img class="logo-mark" src="assets/logo.png" alt="CD logo">corentin didot</a>
+    <ul class="navlinks">
+      <li><a href="#competences">Skills</a></li>
+      <li><a href="#projets">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#formation">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="header-social">
+        <a href="https://linkedin.com/in/corentin-didot" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0ZM3.4 8.75h3.48V21H3.4V8.75Zm6.2 0h3.34v1.68h.05c.47-.87 1.6-1.79 3.29-1.79 3.52 0 4.17 2.28 4.17 5.25V21h-3.48v-5.53c0-1.32-.02-3.02-1.85-3.02-1.85 0-2.13 1.44-2.13 2.92V21H9.6V8.75Z"/></svg>
+        </a>
+      </div>
+      <button type="button" class="nav-cta" id="cv-download-nav">CV</button>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="status-line"><span class="pip"></span>AVAILABLE — JANUARY 2027</div>
+        <h1>Corentin Didot</h1>
+        <p class="role-line" id="role-line"></p>
+        <p class="hero-sub">Currently in my fourth and final year, I am looking for an internship as a gameplay programmer. My project experience has allowed me to develop strong teamwork and communication skills, while reinforcing my ability to manage projects and quickly adapt to new working environments.</p>
+        <div class="hero-ctas">
+          <a href="#projets" class="btn">View my projects</a>
+          <button type="button" class="btn btn-primary" id="cv-download">Download CV</button>
+        </div>
+      </div>
+
+      <div class="hero-photo-col">
+        <div class="photo-frame">
+          <div class="offset-block"></div>
+          <div class="frame-inner">
+            <img src="assets/hero-photo.jpg" style="width:100%;height:100%;object-fit:cover;" alt="Corentin Didot">
+          </div>
+          <span class="corner tl"></span>
+          <span class="corner tr"></span>
+          <span class="corner bl"></span>
+          <span class="corner br"></span>
+          <span class="status-badge">AVAILABLE 2027</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences">
+    <div class="wrap">
+      <div class="code-heading" data-reveal>
+        <div class="ch-line"><span class="ch-bracket">&lt;</span> Technical Skills <span class="ch-bracket">/&gt;</span></div>
+      </div>
+      <div class="stack-groups">
+        <div class="stack-group" data-reveal>
+          <h3>Languages</h3>
+          <div class="badge-row">
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/cpp.png" alt="C++" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">C++</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/c.png" alt="C" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">C</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/csharp.png" alt="C#" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">C#</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/lua.png" alt="Lua" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">Lua</span></div>
+          </div>
+        </div>
+        <div class="stack-group" data-reveal data-reveal-delay="100">
+          <h3>Engines &amp; Frameworks</h3>
+          <div class="badge-row">
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/unity.png" alt="Unity" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">Unity</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/unreal.png" alt="Unreal Engine" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">Unreal</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/love2d.png" alt="Love2D" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">Love2D</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/sfml.png" alt="SFML" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">CSFML/SFML</span></div>
+          </div>
+        </div>
+        <div class="stack-group" data-reveal data-reveal-delay="200">
+          <h3>Data &amp; Tools</h3>
+          <div class="badge-row">
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/sqlite.png" alt="SQLite" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">SQLite</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/mysql.png" alt="MySQL" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">MySQL</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/git.png" alt="Git" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">Git</span></div>
+            <div class="badge teal"><span class="mono" style="background:transparent; width:28px; height:28px;"><img src="assets/icons/tortoisesvn.png" alt="TortoiseSVN" style="width:100%;height:100%;object-fit:contain;"></span><span class="lbl">TortoiseSVN</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="soft-skills">
+    <div class="wrap">
+      <div class="code-heading" data-reveal>
+        <div class="ch-line"><span class="ch-bracket">&lt;</span> Soft Skills <span class="ch-bracket">/&gt;</span></div>
+        <span class="ch-comment">   </span>
+      </div>
+      <div class="soft-grid">
+        <div class="soft-card" data-reveal>
+          <svg viewBox="0 0 24 24"><path d="M21 12c0 4.4-4 8-9 8-1.3 0-2.5-.2-3.6-.7L3 20l1.1-4.2C3.4 14.4 3 13.2 3 12c0-4.4 4-8 9-8s9 3.6 9 8Z" stroke-linejoin="round"/></svg>
+          <h4>Communication</h4>
+          <p>Comfortable communicating with dev and design teams, in both French and English.</p>
+        </div>
+        <div class="soft-card" data-reveal data-reveal-delay="80">
+          <svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.6"/><path d="M2 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5M14.5 14.8c2.6.3 4.5 2.3 4.5 5.2" stroke-linecap="round"/></svg>
+          <h4>Teamwork</h4>
+          <p>Four end-of-year projects built in collaboration with designers and programmers, in teams of up to eight.</p>
+        </div>
+        <div class="soft-card" data-reveal data-reveal-delay="160">
+          <svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="1"/><path d="M9 3h6v3H9zM8 10h8M8 14h8M8 18h5" stroke-linecap="round"/></svg>
+          <h4>Project Management</h4>
+          <p>Shipped complete games on fixed 2-to-3-month deadlines, from prototype to final playable version.</p>
+        </div>
+        <div class="soft-card" data-reveal data-reveal-delay="240">
+          <svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-3-6.7M21 4v5h-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h4>Adaptability</h4>
+          <p>A different engine or language on every project — Love2D, SFML, Unity — learned on the fly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets">
+    <div class="wrap">
+      <div class="code-heading" data-reveal>
+        <div class="ch-line"><span class="ch-bracket">&lt;</span> Projects <span class="ch-bracket">/&gt;</span></div>
+        <span class="ch-comment">  </span>
+      </div>
+
+      <article class="project" data-reveal>
+        <div class="project-head">
+          <span class="project-year">2026</span>
+          <h3 class="project-title">SKETCHZ</h3>
+        </div>
+        <p class="project-desc">Multiplayer first-person shooter built in Unity, developed with a team over a three-month project.</p>
+        <ul class="project-points">
+          <li>Built the complete weapon system and first-person view, including weapon and UI logic</li>
+          <li>Designed adaptive, data-driven weapons using Unity ScriptableObjects, with loot and rarity mechanics</li>
+          <li>Implemented paint decals/VFX, team colors, throwables (bombs/mines), and a healing system</li>
+          <li>Integrated custom music, animations, and network-ready weapon data for multiplayer</li>
+        </ul>
+        <div class="tagrow">
+          <span class="tag">Unity</span>
+          <span class="tag">C#</span>
+          <span class="tag alt">Team project</span>
+        </div>
+        <div class="media-carousel" data-carousel>
+          <div class="carousel-track">
+            <video src="assets/projects/sketchz/1.mp4" class="active" controls playsinline preload="metadata"></video>
+            <img src="assets/projects/sketchz/2.jpg" alt="SKETCHZ — weapon variety">
+            <img src="assets/projects/sketchz/3.jpg" alt="SKETCHZ — combat encounter">
+            <img src="assets/projects/sketchz/4.jpg" alt="SKETCHZ — loot pickup UI">
+          </div>
+          <button type="button" class="carousel-btn prev" aria-label="Previous">‹</button>
+          <button type="button" class="carousel-btn next" aria-label="Next">›</button>
+          <span class="carousel-count">1 / 4</span>
+          <div class="carousel-dots">
+            <button type="button" class="dot active" aria-label="Slide 1"></button>
+            <button type="button" class="dot" aria-label="Slide 2"></button>
+            <button type="button" class="dot" aria-label="Slide 3"></button>
+            <button type="button" class="dot" aria-label="Slide 4"></button>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" stroke-linecap="round"/><circle cx="17" cy="9" r="2.4"/><path d="M14.6 20c0-2.6 1.8-4.5 4.4-4.7" stroke-linecap="round"/></svg>11</span>
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" stroke-linecap="round" stroke-linejoin="round"/></svg>3 Months</span>
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="5" width="16" height="16" rx="1"/><path d="M8 3v4M16 3v4M4 10h16" stroke-linecap="round"/></svg>2026</span>
+        </div>
+        <div style="margin-top:14px;">
+          <a href="project-sketchz.html" class="btn">View More</a>
+        </div>
+      </article>
+
+      <article class="project" data-reveal>
+        <div class="project-head">
+          <span class="project-year">2025</span>
+          <h3 class="project-title">Silent Depths</h3>
+        </div>
+        <p class="project-desc">2D monochrome psychological horror and puzzle game built with SFML, focused on atmosphere and unsettling exploration.</p>
+        <ul class="project-points">
+          <li>Implemented all character movement mechanics, focused on fluid, realistic motion</li>
+          <li>Built visual shaders, including bloom and dynamic lighting, to reinforce the atmosphere</li>
+          <li>Handled audio integration and designed interactive systems such as a chain mechanic for carrying/manipulating objects and light-reactive props</li>
+          <li>Designed NPC behavior and narrative elements, plus the fear system, battery management, and the game's final boss and ending cinematics</li>
+        </ul>
+        <div class="tagrow">
+          <span class="tag">C++</span>
+          <span class="tag">SFML</span>
+          <span class="tag alt">Team project</span>
+        </div>
+        <div class="media-carousel" data-carousel>
+          <div class="carousel-track">
+            <video src="assets/projects/silent-depths/1.mp4" class="active" controls playsinline preload="metadata"></video>
+            <img src="assets/projects/silent-depths/2.png" alt="Silent Depths — diver lighting hanging roots">
+            <img src="assets/projects/silent-depths/3.png" alt="Silent Depths — resting near a glowing outcrop">
+            <img src="assets/projects/silent-depths/4.png" alt="Silent Depths — bioluminescent cave passage">
+            <img src="assets/projects/silent-depths/5.png" alt="Silent Depths — hiding among the algae">
+          </div>
+          <button type="button" class="carousel-btn prev" aria-label="Previous">‹</button>
+          <button type="button" class="carousel-btn next" aria-label="Next">›</button>
+          <span class="carousel-count">1 / 5</span>
+          <div class="carousel-dots">
+            <button type="button" class="dot active" aria-label="Slide 1"></button>
+            <button type="button" class="dot" aria-label="Slide 2"></button>
+            <button type="button" class="dot" aria-label="Slide 3"></button>
+            <button type="button" class="dot" aria-label="Slide 4"></button>
+            <button type="button" class="dot" aria-label="Slide 5"></button>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" stroke-linecap="round"/><circle cx="17" cy="9" r="2.4"/><path d="M14.6 20c0-2.6 1.8-4.5 4.4-4.7" stroke-linecap="round"/></svg>11</span>
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" stroke-linecap="round" stroke-linejoin="round"/></svg>3 Months</span>
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="5" width="16" height="16" rx="1"/><path d="M8 3v4M16 3v4M4 10h16" stroke-linecap="round"/></svg>2025</span>
+        </div>
+        <div style="margin-top:14px;">
+          <a href="project-silent-depths.html" class="btn">View More</a>
+        </div>
+      </article>
+      <article class="project" data-reveal>
+        <div class="project-head">
+          <span class="project-year">2024</span>
+          <h3 class="project-title">Temple Rising</h3>
+        </div>
+        <p class="project-desc">2D action RPG built with SFML over a two-month academic project, developed in C with a team of eight programmers.</p>
+        <ul class="project-points">
+          <li>Implemented the player movement system, enemy behavior, and a complete dialogue system</li>
+          <li>Managed all map collisions using Tiled and integrated animations across gameplay systems</li>
+          <li>Built the full weapon mechanics and handled sound integration</li>
+        </ul>
+        <div class="tagrow">
+          <span class="tag">C</span>
+          <span class="tag">SFML</span>
+          <span class="tag alt">Team project</span>
+        </div>
+        <div class="media-carousel" data-carousel>
+          <div class="carousel-track">
+            <video src="assets/projects/temple-rising/1.mp4" class="active" controls playsinline preload="metadata"></video>
+            <img src="assets/projects/temple-rising/2.jpg" alt="Temple Rising — title screen">
+            <img src="assets/projects/temple-rising/3.jpg" alt="Temple Rising — intro journal">
+            <img src="assets/projects/temple-rising/4.jpg" alt="Temple Rising — temple entrance">
+            <img src="assets/projects/temple-rising/5.jpg" alt="Temple Rising — jungle exploration">
+            <img src="assets/projects/temple-rising/6.jpg" alt="Temple Rising — jungle clearing">
+            <img src="assets/projects/temple-rising/7.jpg" alt="Temple Rising — dungeon corridor">
+            <img src="assets/projects/temple-rising/8.jpg" alt="Temple Rising — dungeon portal door">
+            <img src="assets/projects/temple-rising/9.jpg" alt="Temple Rising — dungeon enemies">
+            <img src="assets/projects/temple-rising/10.jpg" alt="Temple Rising — locked gate room">
+            <img src="assets/projects/temple-rising/11.jpg" alt="Temple Rising — boss encounter">
+          </div>
+          <button type="button" class="carousel-btn prev" aria-label="Previous">‹</button>
+          <button type="button" class="carousel-btn next" aria-label="Next">›</button>
+          <span class="carousel-count">1 / 11</span>
+          <div class="carousel-dots">
+            <button type="button" class="dot active" aria-label="Slide 1"></button>
+            <button type="button" class="dot" aria-label="Slide 2"></button>
+            <button type="button" class="dot" aria-label="Slide 3"></button>
+            <button type="button" class="dot" aria-label="Slide 4"></button>
+            <button type="button" class="dot" aria-label="Slide 5"></button>
+            <button type="button" class="dot" aria-label="Slide 6"></button>
+            <button type="button" class="dot" aria-label="Slide 7"></button>
+            <button type="button" class="dot" aria-label="Slide 8"></button>
+            <button type="button" class="dot" aria-label="Slide 9"></button>
+            <button type="button" class="dot" aria-label="Slide 10"></button>
+            <button type="button" class="dot" aria-label="Slide 11"></button>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" stroke-linecap="round"/><circle cx="17" cy="9" r="2.4"/><path d="M14.6 20c0-2.6 1.8-4.5 4.4-4.7" stroke-linecap="round"/></svg>10</span>
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" stroke-linecap="round" stroke-linejoin="round"/></svg>3 Months</span>
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="5" width="16" height="16" rx="1"/><path d="M8 3v4M16 3v4M4 10h16" stroke-linecap="round"/></svg>2024</span>
+        </div>
+        <div style="margin-top:14px;">
+          <a href="project-temple-rising.html" class="btn">View More</a>
+        </div>
+      </article>
+
+      <article class="project" data-reveal>
+        <div class="project-head">
+          <span class="project-year">2023</span>
+          <h3 class="project-title">Slumber Quest</h3>
+        </div>
+        <p class="project-desc">First complete game, built with a team of 10 in Lua with the Love2D framework, under a two-month first-year deadline.</p>
+        <ul class="project-points">
+          <li>Took the project from prototype to a fully playable version</li>
+          <li>First hands-on experience with a complete game development pipeline</li>
+        </ul>
+        <div class="tagrow">
+          <span class="tag">Love2D</span>
+          <span class="tag">Lua</span>
+          <span class="tag alt">Team project</span>
+        </div>
+        <div class="media-carousel" data-carousel>
+          <div class="carousel-track">
+            <video src="assets/projects/slumber-quest/1.mp4" class="active" controls playsinline preload="metadata"></video>
+            <img src="assets/projects/slumber-quest/2.png" alt="Slumber Quest — forest battle">
+            <img src="assets/projects/slumber-quest/3.png" alt="Slumber Quest — shop and igloo">
+          </div>
+          <button type="button" class="carousel-btn prev" aria-label="Previous">‹</button>
+          <button type="button" class="carousel-btn next" aria-label="Next">›</button>
+          <span class="carousel-count">1 / 3</span>
+          <div class="carousel-dots">
+            <button type="button" class="dot active" aria-label="Slide 1"></button>
+            <button type="button" class="dot" aria-label="Slide 2"></button>
+            <button type="button" class="dot" aria-label="Slide 3"></button>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" stroke-linecap="round"/><circle cx="17" cy="9" r="2.4"/><path d="M14.6 20c0-2.6 1.8-4.5 4.4-4.7" stroke-linecap="round"/></svg>10</span>
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" stroke-linecap="round" stroke-linejoin="round"/></svg>2 Months</span>
+          <span class="project-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="5" width="16" height="16" rx="1"/><path d="M8 3v4M16 3v4M4 10h16" stroke-linecap="round"/></svg>2023</span>
+        </div>
+        <div style="margin-top:14px;">
+          <a href="project-slumber-quest.html" class="btn">View More</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="code-heading" data-reveal>
+        <div class="ch-line"><span class="ch-bracket">&lt;</span> Professional Experience <span class="ch-bracket">/&gt;</span></div>
+        <span class="ch-comment"> </span>
+      </div>
+
+      <div class="exp-item" data-reveal>
+        <div class="exp-date">June — August 2026</div>
+        <div>
+          <p class="exp-role">Warehouse Worker</p>
+          <p class="exp-org">Intermarché — Six-Fours-les-Plages, France</p>
+          <p class="exp-desc">3-month on-site position, goods handling and logistics. Skills: communication and teamwork.</p>
+        </div>
+      </div>
+
+      <div class="exp-item" data-reveal data-reveal-delay="100">
+        <div class="exp-date">Summer 2024 &amp; 2025</div>
+        <div>
+          <p class="exp-role">Food Service Staff</p>
+          <p class="exp-org">Village Vacances "Le Vert Bois"</p>
+          <p class="exp-desc">Catering service over two summer seasons, teamwork under a fast-paced schedule.</p>
+        </div>
+      </div>
+
+      <div class="exp-item" data-reveal data-reveal-delay="200">
+        <div class="exp-date">Summer 2022 &amp; 2023</div>
+        <div>
+          <p class="exp-role">Warehouse Assistant</p>
+          <p class="exp-org">Intermarché</p>
+          <p class="exp-desc">Goods receiving and shelf stocking, logistics flow management in a retail environment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation">
+    <div class="wrap">
+      <div class="code-heading" data-reveal>
+        <div class="ch-line"><span class="ch-bracket">&lt;</span> Education <span class="ch-bracket">/&gt;</span></div>
+        <span class="ch-comment"> </span>
+      </div>
+
+      <div class="edu-card" data-reveal>
+        <div class="edu-top">
+          <h3 class="edu-title">Créajeux — Video Game School</h3>
+          <span class="edu-date">2022 — 2027</span>
+        </div>
+        <p class="edu-sub">Programming track, Nîmes</p>
+        <div class="edu-tags">
+          <span class="tag">C++ Architecture</span>
+          <span class="tag">Unity</span>
+          <span class="tag">Unreal Basics (Blueprint)</span>
+          <span class="tag">Shaders</span>
+          <span class="tag alt">Databases</span>
+          <span class="tag alt">Project Management</span>
+          <span class="tag alt">English</span>
+        </div>
+      </div>
+
+      <div class="edu-card" data-reveal data-reveal-delay="100">
+        <div class="edu-top">
+          <h3 class="edu-title">French Baccalauréat (General track)</h3>
+          <span class="edu-date">2022</span>
+        </div>
+        <p class="edu-sub">Mathematics, Physics-Chemistry, Computer Science — honors — Lycée Beaussier</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <div class="code-heading" data-reveal>
+          <div class="ch-line"><span class="ch-bracket">&lt;</span> Contact <span class="ch-bracket">/&gt;</span></div>
+          <span class="ch-comment">// Available January 2027</span>
+        </div>
+        <ul class="contact-list" data-reveal data-reveal-delay="100">
+          <li><span class="contact-label">Website</span><a class="contact-value" href="https://didotcorentin.com" target="_blank" rel="noopener">didotcorentin.com</a></li>
+          <li><span class="contact-label">Phone</span><a class="contact-value" href="tel:+33763414585">07 63 41 45 85</a></li>
+          <li><span class="contact-label">LinkedIn</span><a class="contact-value" href="https://linkedin.com/in/corentin-didot" target="_blank" rel="noopener">/in/corentin-didot</a></li>
+          <li><span class="contact-label">Location</span><span class="contact-value">La Seyne-sur-Mer</span></li>
+        </ul>
+        <div style="margin-top:24px;">
+          <a href="mailto:didotcorentin@hotmail.com?subject=Portfolio%20contact" class="btn btn-primary">Contact Me</a>
+        </div>
+      </div>
+      <div class="avail-box" data-reveal data-reveal-delay="200">
+        <span class="ch-comment" style="display:block;">// cv.pdf</span>
+        <p style="color:var(--paper); font-weight:600; margin-top:10px;">Full CV in PDF format</p>
+        <p>Education, detailed projects, and professional experience.</p>
+        <div class="cv-preview">
+          <iframe src="assets/cv.pdf#toolbar=0" title="CV preview — Corentin Didot"></iframe>
+        </div>
+        <button type="button" class="btn btn-primary" id="cv-download-2" style="width:100%; justify-content:center;">Download CV</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Corentin Didot — Gameplay Programmer — © 2026</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // --- typewriter role cycling ---
+  var roles = ["Video game programmer.", "Gameplay programmer.", "C++ enthusiast."];
+  var el = document.getElementById('role-line');
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if(reduced){
+    el.textContent = roles[0];
+  } else {
+    var ri = 0, ci = 0, deleting = false;
+    function tick(){
+      var word = roles[ri];
+      if(!deleting){
+        ci++;
+        if(ci > word.length){ deleting = true; setTimeout(tick, 1400); return; }
+      } else {
+        ci--;
+        if(ci < 0){ deleting = false; ri = (ri+1) % roles.length; ci = 0; }
+      }
+      el.innerHTML = word.slice(0, ci) + '<span class="caret"></span>';
+      setTimeout(tick, deleting ? 30 : 55);
+    }
+    tick();
+  }
+
+  // --- CV download ---
+  var downloadBtns = [document.getElementById('cv-download'), document.getElementById('cv-download-2'), document.getElementById('cv-download-nav')];
+
+  function doDownload(){
+    var a = document.createElement('a');
+    a.href = 'assets/cv.pdf';
+    a.download = 'CV_Corentin_Didot.pdf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+  downloadBtns.forEach(function(btn){ if(btn) btn.addEventListener('click', doDownload); });
+
+  // --- media carousels (arrow / dot navigation) ---
+  document.querySelectorAll('[data-carousel]').forEach(function(carousel){
+    var slides = Array.prototype.slice.call(carousel.querySelectorAll('.carousel-track > *'));
+    var dots = Array.prototype.slice.call(carousel.querySelectorAll('.dot'));
+    var counter = carousel.querySelector('.carousel-count');
+    var prevBtn = carousel.querySelector('.carousel-btn.prev');
+    var nextBtn = carousel.querySelector('.carousel-btn.next');
+    var index = 0;
+
+    function show(i){
+      index = (i + slides.length) % slides.length;
+      slides.forEach(function(s, si){ s.classList.toggle('active', si === index); });
+      dots.forEach(function(d, di){ d.classList.toggle('active', di === index); });
+      if(counter) counter.textContent = (index + 1) + ' / ' + slides.length;
+    }
+
+    if(prevBtn) prevBtn.addEventListener('click', function(){ show(index - 1); });
+    if(nextBtn) nextBtn.addEventListener('click', function(){ show(index + 1); });
+    dots.forEach(function(d, di){ d.addEventListener('click', function(){ show(di); }); });
+
+    if(slides.length > 1){
+      carousel.tabIndex = 0;
+      carousel.addEventListener('keydown', function(e){
+        if(e.key === 'ArrowLeft'){ show(index - 1); }
+        if(e.key === 'ArrowRight'){ show(index + 1); }
+      });
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

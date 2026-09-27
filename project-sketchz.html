@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SKETCHZ — Corentin Didot</title>
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,700;1,800&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body class="project-page">
+
+<div class="page-transition" aria-hidden="true"></div>
+
+<div class="bg-image" aria-hidden="true"></div>
+<div class="grid-bg" aria-hidden="true"></div>
+
+<header>
+  <div class="wrap nav">
+    <a href="mainPage.html#home" class="logo"><img class="logo-mark" src="assets/logo.png" alt="CD logo">Corentin Didot</a>
+    <ul class="navlinks">
+      <li><a href="mainPage.html#competences">Skills</a></li>
+      <li><a href="mainPage.html#projets">Projects</a></li>
+      <li><a href="mainPage.html#experience">Experience</a></li>
+      <li><a href="mainPage.html#formation">Education</a></li>
+      <li><a href="mainPage.html#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="header-social">
+        <a href="https://github.com/Corentin-Didot" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.61.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/corentin-didot" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0ZM3.4 8.75h3.48V21H3.4V8.75Zm6.2 0h3.34v1.68h.05c.47-.87 1.6-1.79 3.29-1.79 3.52 0 4.17 2.28 4.17 5.25V21h-3.48v-5.53c0-1.32-.02-3.02-1.85-3.02-1.85 0-2.13 1.44-2.13 2.92V21H9.6V8.75Z"/></svg>
+        </a>
+      </div>
+      <button type="button" class="nav-cta" id="cv-download-nav">CV</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <a href="mainPage.html#projets" class="back-link">← Back to projects</a>
+
+      <div class="project-page-head" data-reveal>
+        <span class="project-year">2026</span>
+        <h1 class="project-title">SKETCHZ</h1>
+      </div>
+      <p class="project-desc">Multiplayer first-person shooter built in Unity, developed with a team over a three-month project.</p>
+      <ul class="project-points">
+        <li>Built the complete weapon system and first-person view, including weapon and UI logic</li>
+        <li>Designed adaptive, data-driven weapons using Unity ScriptableObjects, with loot and rarity mechanics</li>
+        <li>Implemented paint decals/VFX, team colors, throwables (bombs/mines), and a healing system</li>
+        <li>Integrated custom music, animations, and network-ready weapon data for multiplayer</li>
+      </ul>
+      <div class="tagrow">
+        <span class="tag">Unity</span>
+        <span class="tag">C#</span>
+        <span class="tag alt">Team project</span>
+      </div>
+
+      <div class="media-carousel" data-carousel data-reveal data-reveal-delay="100">
+        <div class="carousel-track">
+          <video src="assets/projects/sketchz/1.mp4" class="active" controls playsinline preload="metadata"></video>
+          <img src="assets/projects/sketchz/2.jpg" alt="SKETCHZ — weapon variety">
+          <img src="assets/projects/sketchz/3.jpg" alt="SKETCHZ — combat encounter">
+          <img src="assets/projects/sketchz/4.jpg" alt="SKETCHZ — loot pickup UI">
+        </div>
+        <button type="button" class="carousel-btn prev" aria-label="Previous">‹</button>
+        <button type="button" class="carousel-btn next" aria-label="Next">›</button>
+        <span class="carousel-count">1 / 4</span>
+        <div class="carousel-dots">
+          <button type="button" class="dot active" aria-label="Slide 1"></button>
+          <button type="button" class="dot" aria-label="Slide 2"></button>
+          <button type="button" class="dot" aria-label="Slide 3"></button>
+          <button type="button" class="dot" aria-label="Slide 4"></button>
+        </div>
+      </div>
+
+      <div class="project-nav-row">
+        <a href="project-slumber-quest.html" class="project-nav-card is-prev" data-reveal>
+          <img class="project-nav-thumb" src="assets/projects/slumber-quest/2.png" alt="Slumber Quest preview">
+          <span class="project-nav-info">
+            <span class="project-nav-label">← Previous project</span>
+            <span class="project-nav-title">Slumber Quest</span>
+          </span>
+        </a>
+        <a href="project-silent-depths.html" class="project-nav-card is-next" data-reveal data-reveal-delay="100">
+          <img class="project-nav-thumb" src="assets/projects/silent-depths/2.png" alt="Silent Depths preview">
+          <span class="project-nav-info">
+            <span class="project-nav-label">Next project →</span>
+            <span class="project-nav-title">Silent Depths</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Corentin Didot — Video Game Programmer — © 2026</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var downloadBtns = [document.getElementById('cv-download-nav')];
+  function doDownload(){
+    var a = document.createElement('a');
+    a.href = 'assets/cv.pdf';
+    a.download = 'CV_Corentin_Didot.pdf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+  downloadBtns.forEach(function(btn){ if(btn) btn.addEventListener('click', doDownload); });
+
+  document.querySelectorAll('[data-carousel]').forEach(function(carousel){
+    var slides = Array.prototype.slice.call(carousel.querySelectorAll('.carousel-track > *'));
+    var dots = Array.prototype.slice.call(carousel.querySelectorAll('.dot'));
+    var counter = carousel.querySelector('.carousel-count');
+    var prevBtn = carousel.querySelector('.carousel-btn.prev');
+    var nextBtn = carousel.querySelector('.carousel-btn.next');
+    var index = 0;
+
+    function show(i){
+      index = (i + slides.length) % slides.length;
+      slides.forEach(function(s, si){ s.classList.toggle('active', si === index); });
+      dots.forEach(function(d, di){ d.classList.toggle('active', di === index); });
+      if(counter) counter.textContent = (index + 1) + ' / ' + slides.length;
+    }
+
+    if(prevBtn) prevBtn.addEventListener('click', function(){ show(index - 1); });
+    if(nextBtn) nextBtn.addEventListener('click', function(){ show(index + 1); });
+    dots.forEach(function(d, di){ d.addEventListener('click', function(){ show(di); }); });
+
+    if(slides.length > 1){
+      carousel.tabIndex = 0;
+      carousel.addEventListener('keydown', function(e){
+        if(e.key === 'ArrowLeft'){ show(index - 1); }
+        if(e.key === 'ArrowRight'){ show(index + 1); }
+      });
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
